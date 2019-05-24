@@ -9,10 +9,8 @@
         <module name="pandora" />
       </profile>
     </annotationProcessing>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="pandora" options="" />
-    </option>
+    <bytecodeTargetLevel>
+      <module name="pandora" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
