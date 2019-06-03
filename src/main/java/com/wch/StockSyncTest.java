@@ -24,7 +24,7 @@ public class StockSyncTest {
         e.setSupplierSkuCode("sku1111");
         e.setStock(50L);
         stockSyncList.add(e);
-
+        //aaa
         List<StockSyncDTO> stockSyncDTOS = stockSyncService.stockSync("dsadash", "321321", "kkkk", stockSyncList);
         System.out.println(stockSyncDTOS);
         
